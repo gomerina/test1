@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 .page-body {
-    padding: 90px 0;
+    padding: 195px 0 90px 0;
     flex: 1 0 auto;
 }
 .heading {
@@ -37,7 +37,7 @@ body {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Sans+Pro:wght@900&display=swap');
+
 @import 'nullstyle.scss';
 @import 'block/header.scss';
 @import 'block/product-cards.scss';
