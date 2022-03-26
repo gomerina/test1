@@ -1,0 +1,29 @@
+.footer {
+    background: #46AD91;
+    padding: 26px 0;
+    font-weight: 400;
+    letter-spacing: .8px;
+    line-height: 24px;
+    color: #fff;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__menu-item {
+    display: inline-block;
+}
+.footer__menu-item:not(:last-child) {
+    margin: 0 33px 0 0;
+}
+.footer__menu-link {
+    color: #fff;
+    &.policy {
+        border-bottom: 1px solid #fff;
+        letter-spacing: 1.18px;
+    }
+}
+.footer__menu {
+    margin: 0 4px 0 0;
+}
